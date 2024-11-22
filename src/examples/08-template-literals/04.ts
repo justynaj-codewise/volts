@@ -4,7 +4,7 @@
  * która przyjmuje string typu Coordinate i zwraca obiekt z właściwościami
  * x i y jako liczbami.
  */
-type Coordinate = undefined; // change me
+type Coordinate = `${number},${number}`; // change me
 
 function parseCoordinate(coord: Coordinate): { x: number; y: number } {
   // change me
